@@ -32,3 +32,27 @@ $( "#catImg5" ).click(function() {
 	$('#count5').text(count);
 });
 
+$( "#button1" ).click(function() {
+	$('.cat').hide();
+	$('#cat1').show();
+});
+
+$( "#button2" ).click(function() {
+	$('.cat').hide();
+	$('#cat2').show();
+});
+
+$( "#button3" ).click(function() {
+	$('.cat').hide();
+	$('#cat3').show();
+});
+
+$( "#button4" ).click(function() {
+	$('.cat').hide();
+	$('#cat4').show();
+});
+
+$( "#button5" ).click(function() {
+	$('.cat').hide();
+	$('#cat5').show();
+});
