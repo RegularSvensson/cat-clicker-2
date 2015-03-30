@@ -1,3 +1,5 @@
 $( "#cat" ).click(function() {
-  alert( "Handler for .click() called." );
+	var count = $('#count').text();
+	count++;
+	$('#count').text(count);
 });
