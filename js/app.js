@@ -1,4 +1,6 @@
-$( "#cat1" ).click(function() {
+
+$('.cat').hide();
+$('#cat1').show();
 	var count = $('#count1').text();
 	count++;
 	$('#count1').text(count);
